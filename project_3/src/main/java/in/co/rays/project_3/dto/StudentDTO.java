@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * Student JavaDto encapsulates student attributes
- * @author Abeet Patel
+ * @author Anshul Prajapati
  *
  */
 

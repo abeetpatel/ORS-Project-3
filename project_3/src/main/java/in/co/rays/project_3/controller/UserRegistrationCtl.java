@@ -25,7 +25,7 @@ import in.co.rays.project_3.util.ServletUtility;
 /**
  * User registration functionality Controller. Performs operation for User
  * 
- * @author Abeet Patel
+ * @author Anshul Prajapati
  *
  */
 @WebServlet(urlPatterns = { "/UserRegistrationCtl" })

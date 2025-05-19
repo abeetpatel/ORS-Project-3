@@ -21,7 +21,7 @@ import in.co.rays.project_3.util.ServletUtility;
 
 /**
  *college list ctl.to perform search and show list operation
- * @author Abeet Patel
+ * @author Anshul Prajapati
  *
  */
 @WebServlet(name = "CollegeListCtl", urlPatterns = { "/ctl/CollegeListCtl" })

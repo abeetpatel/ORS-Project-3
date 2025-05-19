@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 31, 2024, 1:21:58 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <subclass name="in.co.rays.project_3.dto.ProductDTO" extends="in.co.rays.project_3.dto.BaseDTO" discriminator-value="ProductDTO" lazy="false">
+        <property name="productName" type="java.lang.String">
+            <column name="PRODUCTNAME" />
+        </property>
+        <property name="purchaseDate" type="java.util.Date">
+            <column name="PURCHASEDATE" />
+        </property>
+        <property name="productAmmount" type="java.lang.String">
+            <column name="PRODUCTAMMOUNT" />
+        </property>
+        <property name="productCategory" type="java.lang.String">
+            <column name="PRODUCTCATEGORY" />
+        </property>
+    </subclass>
+</hibernate-mapping>

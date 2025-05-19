@@ -8,7 +8,7 @@ import in.co.rays.project_3.exception.DuplicateRecordException;
 
 /**
  * Interface of Student model
- * @author Abeet Patel
+ * @author Anshul Prajapati
  *
  */
 public interface StudentModelInt {

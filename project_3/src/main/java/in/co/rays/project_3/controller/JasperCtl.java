@@ -26,7 +26,7 @@ import net.sf.jasperreports.engine.JasperReport;
  * Jasper functionality Controller. Performs operation for Print pdf of
  * MarksheetMeriteList
  *
- * @author Abeet Patel
+ * @author Kuldeep Badadwal
  */
 @WebServlet(name = "JasperCtl", urlPatterns = { "/ctl/JasperCtl" })
 public class JasperCtl extends BaseCtl {
@@ -43,7 +43,7 @@ public class JasperCtl extends BaseCtl {
 			
 			/* Compilation of jrxml file */
 			JasperReport jasperReport = JasperCompileManager
-					.compileReport("C:\\Users\\abeet\\JaspersoftWorkspace\\MyReports\\project_3.jrxml");
+					.compileReport("C:\\Users\\kulde\\JaspersoftWorkspace\\MyReports\\Merit.jrxml");
 
 			HttpSession session = request.getSession(true);
 			UserDTO dto = (UserDTO) session.getAttribute("user");

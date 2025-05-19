@@ -26,7 +26,7 @@ import in.co.rays.project_3.util.ServletUtility;
  * Timetable functionality controller. to perform add,delete and update
  * operation
  * 
- * @author Abeet Patel
+ * @author Anshul Prajapati
  *
  */
 @WebServlet(urlPatterns={"/ctl/TimeTableCtl"})

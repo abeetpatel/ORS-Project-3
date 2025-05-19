@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/project_3</property>
+
+		<property name="hibernate.connection.username">rays</property>
+		<property name="hibernate.connection.password">indore@123</property>
+
+
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+		<property name="hbm2ddl.auto">update</property>
+		<property name="show_sql">true</property>
+
+
+		<!-- <property name="hibernate.cache.provider_class"> org.hibernate.cache.EhCacheProvider</property> 
+			<property name="hibernate.cache.use_second_level_cache"> true</property> -->
+
+		<!-- hibernate DCP c3p0 Configuration -->
+		<!-- <property name="hibernate.c3p0.min_size">10</property> Defailt 3 <property 
+			name="hibernate.c3p0.max_size">100</property>Defailt 20 Acquired increment 
+			by default =3 <property name="hibernate.c3p0.timeout">10</property>Defailt 
+			20 <property name="hibernate.c3p0.max_statements">50</property> <property 
+			name="hibernate.c3p0.idle_test_period">3000</property> -->
+
+
+		<mapping resource="in/co/rays/project_3/hbm/UserDTO.hbm.xml" />
+		<mapping
+			resource="in/co/rays/project_3/hbm/StudentDTO.hbm.xml" />
+		<mapping
+			resource="in/co/rays/project_3/hbm/CollegeDTO.hbm.xml" />
+		<mapping resource="in/co/rays/project_3/hbm/CourseDTO.hbm.xml" />
+		<mapping resource="in/co/rays/project_3/hbm/RoleDTO.hbm.xml" />
+		<mapping
+			resource="in/co/rays/project_3/hbm/MarksheetDTO.hbm.xml" />
+		<mapping
+			resource="in/co/rays/project_3/hbm/TimetableDTO.hbm.xml" />
+		<mapping
+			resource="in/co/rays/project_3/hbm/FacultyDTO.hbm.xml" />
+		<mapping
+			resource="in/co/rays/project_3/hbm/SubjectDTO.hbm.xml" />
+
+
+
+	</session-factory>
+</hibernate-configuration>

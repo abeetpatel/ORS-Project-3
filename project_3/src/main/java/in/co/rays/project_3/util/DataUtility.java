@@ -7,7 +7,7 @@ import java.util.Date;
 
 /**
 * data Uility class to formate data
- * @author Abeet Patel
+ * @author Anshul Prajapati
 *
 */
 public class DataUtility {
