@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-Jun-2025, 5:15:52 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="in.co.rays.project_3.dto">
+	<class name="StaffMemberDTO" table="ST_STAFFMEMBER">
+		<id name="id" type="java.lang.Long">
+			<column name="ID" />
+			<generator class="increment" />
+		</id>
+		<property name="fullName" type="java.lang.String">
+			<column name="FULLNAME" />
+		</property>
+		<property name="joiningDate" type="java.util.Date">
+			<column name="JOININGDATE" />
+		</property>
+		<property name="division" type="java.lang.String">
+			<column name="DIVISION" />
+		</property>
+		<property name="previousEmployer" type="java.lang.String">
+			<column name="PREVIOUSEMPLOYER" />
+		</property>
+	</class>
+</hibernate-mapping>
